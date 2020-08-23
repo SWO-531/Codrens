@@ -1,0 +1,12 @@
+## 1. Say hi
+"""
+In this mission you should write a funciton that introduce a person with a given parameters in attributes.
+Input: Two arguments. String and positive integer
+Output: String
+Example:
+1. say_hi("Alex", 32) == "Hi, My name is Alex and I'm 32 years old"
+2. say_hi("Frank", 68) == "Hi, My name is Frank and I'm 68 years old"
+"""
+
+def say_hi(name, age):
+    print("Hi, my name is {} and I'm {} years old.".format(name, age))
